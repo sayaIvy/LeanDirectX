@@ -4,9 +4,11 @@
 // Direct3Dのライブラリを使用できるようにする
 #pragma comment(lib, "d3d11.lib")
 #pragma comment(lib, "dxgi.lib")
+#pragma comment(lib, "d3dcompiler.lib")
 
 // Direct3Dの型・クラス・関数などを呼べるようにする
 #include <d3d11.h>
+#include <d3dcompiler.h>
 
 // DirectXMath(数学ライブラリ)を使用できるようにする
 #include <DirectXMath.h>
@@ -41,6 +43,10 @@ public:
 	//--------------------------------------------
 	bool Initialize(HWND hWnd, int width, int height);
 
+	// 2D描画用のシェーダー
+	ComPtr<ID3D11VertexShader>	m_spriteVS = nullptr;	// 頂点シェーダー
+	ComPtr<ID3D11PixelShader>	m_spritePS = nullptr;	// ピクセルシェーダー
+	ComPtr<ID3D11InputLayout>	m_spriteInputLayout = nullptr;// 入力レイアウト
 
 
 	//=========================================
