@@ -19,6 +19,12 @@
     <Filter Include="Source\DirectX">
       <UniqueIdentifier>{50311f38-615c-4a82-9287-95adfc44183a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{f7f8b349-c716-4c62-b233-3a307b0b90c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Shader">
+      <UniqueIdentifier>{11b33213-9a92-45fa-be38-6972f91dff24}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -36,6 +42,9 @@
     <ClInclude Include="Direct3D.h">
       <Filter>Source\DirectX</Filter>
     </ClInclude>
+    <ClInclude Include="GameSystem.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LearnDirectX.cpp">
@@ -43,6 +52,9 @@
     </ClCompile>
     <ClCompile Include="Direct3D.cpp">
       <Filter>Source\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem.cpp">
+      <Filter>Source\Game</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -57,5 +69,10 @@
     <Image Include="LearnDirectX.ico">
       <Filter>リソース ファイル</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="SpriteShader.hlsl">
+      <Filter>Source\Shader</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>
