@@ -73,6 +73,9 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
       // ゲームの処理を書く
       //============================================
 
+      // ゲームシステムの処理を実行する
+      GAMESYS.Execute();
+
     }
 
     // ゲームシステム削除

@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{cbe3584b-2f5b-414f-bd34-8b5469984f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\DirectX">
+      <UniqueIdentifier>{a97be205-29c4-4405-bd54-67095bfa5e58}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -27,22 +33,22 @@
     <ClInclude Include="LearnDirectX.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="Source\DirectX\Direct3D.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="Source\Game\GameSystem.h">
       <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DirectX\Direct3D.h">
+      <Filter>Source\DirectX</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LearnDirectX.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="Source\DirectX\Direct3D.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Game\GameSystem.cpp">
       <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectX\Direct3D.cpp">
+      <Filter>Source\DirectX</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
