@@ -1,9 +1,7 @@
 #include "framework.h"
 
-// GameSystemクラスを使えるようにする
 #include "GameSystem.h"
-// Direct3Dクラスを使えるようにする
-#include "Direct3D.h"
+#include "Source/DirectX/Direct3D.h"
 
 // ゲームの初期設定を行う
 void GameSystem::Initialize()

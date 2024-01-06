@@ -14,16 +14,10 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Source">
-      <UniqueIdentifier>{468f8181-61bc-4b9a-ad92-4303a69bbdc4}</UniqueIdentifier>
+      <UniqueIdentifier>{cbe3584b-2f5b-414f-bd34-8b5469984f36}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\DirectX">
-      <UniqueIdentifier>{50311f38-615c-4a82-9287-95adfc44183a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\Game">
-      <UniqueIdentifier>{f7f8b349-c716-4c62-b233-3a307b0b90c4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\Shader">
-      <UniqueIdentifier>{11b33213-9a92-45fa-be38-6972f91dff24}</UniqueIdentifier>
+      <UniqueIdentifier>{a97be205-29c4-4405-bd54-67095bfa5e58}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -39,22 +33,22 @@
     <ClInclude Include="LearnDirectX.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="Direct3D.h">
-      <Filter>Source\DirectX</Filter>
+    <ClInclude Include="Source\Game\GameSystem.h">
+      <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="GameSystem.h">
-      <Filter>Source\Game</Filter>
+    <ClInclude Include="Source\DirectX\Direct3D.h">
+      <Filter>Source\DirectX</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LearnDirectX.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="Direct3D.cpp">
-      <Filter>Source\DirectX</Filter>
+    <ClCompile Include="Source\Game\GameSystem.cpp">
+      <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="GameSystem.cpp">
-      <Filter>Source\Game</Filter>
+    <ClCompile Include="Source\DirectX\Direct3D.cpp">
+      <Filter>Source\DirectX</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -69,10 +63,5 @@
     <Image Include="LearnDirectX.ico">
       <Filter>リソース ファイル</Filter>
     </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <FxCompile Include="SpriteShader.hlsl">
-      <Filter>Source\Shader</Filter>
-    </FxCompile>
   </ItemGroup>
 </Project>

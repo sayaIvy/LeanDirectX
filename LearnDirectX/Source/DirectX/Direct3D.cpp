@@ -1,5 +1,5 @@
-
 #include "framework.h"
+
 #include "Direct3D.h"
 
 #include <windows.h>
@@ -145,7 +145,6 @@ bool Direct3D::Initialize(HWND hWnd, int width, int height)
 	{
 		return false;
 	}
-
 
 	return true;
 }

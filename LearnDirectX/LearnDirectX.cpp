@@ -4,8 +4,8 @@
 #include "framework.h"
 #include "LearnDirectX.h"
 
-#include "Direct3D.h"
-#include "GameSystem.h"
+#include "Source/DirectX/Direct3D.h"
+#include "Source/Game/GameSystem.h"
 
 #define MAX_LOADSTRING 100
 
@@ -72,6 +72,9 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
       //============================================
       // ゲームの処理を書く
       //============================================
+
+      // ゲームシステムの処理を実行する
+      GAMESYS.Execute();
 
     }
 
