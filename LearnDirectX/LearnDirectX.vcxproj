@@ -145,6 +145,7 @@
     <ClInclude Include="LearnDirectX.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Source\DirectX\Direct3D.h" />
+    <ClInclude Include="Source\DirectX\DirectX.h" />
     <ClInclude Include="Source\Game\GameSystem.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
